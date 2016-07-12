@@ -1,5 +1,7 @@
 #include "Display.h"
 
+using namespace Engine;
+
 int main(int argc, char* args[])
 {
 	Display display(800,600);

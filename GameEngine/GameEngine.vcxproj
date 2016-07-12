@@ -20,6 +20,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Game\Display.h" />
+    <ClInclude Include="Util\GameTime.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Util\GameTime.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A2E8C07D-DAE6-4F15-80A6-73713404622A}</ProjectGuid>
