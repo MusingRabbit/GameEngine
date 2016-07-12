@@ -1,14 +1,21 @@
-#include "Display.h"
+#include <Util\Display.h>
+#include <Util\GameTime.h>
+#include <iostream>
 
 using namespace Engine;
 
-int main(int argc, char* args[])
-{
-	Display display(800,600);
+int main(int argc, char* args[]){
 
+	Display display(800,600);
+	GameTime gameTimer;
+
+	gameTimer.Start();
 	while (!display.isClosing()) {
 		SDL_Event e;
 		display.Update();
+	
+		if (gameTimer.Tick())
+			std::cout << "TICK!" << std::endl;
 
 		while (SDL_PollEvent(&e)) {
 			switch (e.type)

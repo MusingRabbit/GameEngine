@@ -10,7 +10,7 @@
 
 namespace Engine {
 
-	class Display
+	class __declspec(dllexport) Display
 	{
 	public:
 		Display() { Init(DEFAULT_SCREEN_WIDTH, DEFAULT_SCREEN_HEIGHT, DEFAULT_SCREEN_TITLE); }
