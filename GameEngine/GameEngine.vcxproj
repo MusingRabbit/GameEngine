@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Math\Vector2D.h" />
     <ClInclude Include="Util\Display.h" />
     <ClInclude Include="Util\GameTime.h" />
   </ItemGroup>

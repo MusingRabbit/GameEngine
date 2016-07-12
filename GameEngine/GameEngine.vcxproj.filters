@@ -3,6 +3,7 @@
   <ItemGroup>
     <ClInclude Include="Util\GameTime.h" />
     <ClInclude Include="Util\Display.h" />
+    <ClInclude Include="Math\Vector2D.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Util\GameTime.cpp" />
